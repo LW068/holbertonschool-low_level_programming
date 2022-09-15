@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * Betty style???
+ * main - Betty style???
  *
  * Return: Always 0 (Success)
  */

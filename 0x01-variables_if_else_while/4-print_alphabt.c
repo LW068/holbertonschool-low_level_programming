@@ -9,12 +9,14 @@
 */
 int main(void)
 {
-	char soup[24];"abcdfghijklmnoprstuvwxyz";
-	int i;
+	char soup;
 
-	for (i = 0; i < 24; i++)
+	for (soup = 'a'; soup <= 'z'; soup++)
 	{
-		putchar(soup[i]);
+		if (soup != 'e' && soup != 'q')
+		{
+			putchar(soup);
+		}
 	}
 	putchar('\n');
 	return (0);

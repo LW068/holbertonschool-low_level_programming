@@ -8,11 +8,14 @@
 */
 int main(void)
 {
-char num[10] = "0123456789";
 int x;
 
-for (x = 0; x < 11; x++)
-putchar(num[10]);
+for (x = 48; x < 58; x++)
+putchar(x);
+if (x != 57)
+
+putchar(',');
+putchar(' ');
 putchar('\n');
 return (0);
 }

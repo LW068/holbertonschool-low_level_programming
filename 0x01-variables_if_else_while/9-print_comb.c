@@ -8,11 +8,11 @@
 */
 int main(void)
 {
-char alpha[16] = "0123456789abcdef";
-int i;
+char num[10] = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9";
+int x;
 
-for (i = 0; i < 16; i++)
-putchar(alpha[i]);
+for (x = 0; x < 11; x++)
+putchar(num[10]);
 putchar('\n');
 return (0);
 }

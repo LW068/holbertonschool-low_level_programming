@@ -1,4 +1,5 @@
 #include<string.h>
+#include<main.h>
 
 /**
 * main - TEXT
@@ -7,7 +8,6 @@
 */
 int main(void)
 {
-putchar(_putchar);
-putchar('\n');
+putchar
 return (0)
 }

@@ -12,7 +12,7 @@ int a;
 {
 for (a = 0; a <= 10; a++)
 }
-_putchar(a[num]);
+_putchar(int[num]);
 _putchar("\n");
 {
 return (0);

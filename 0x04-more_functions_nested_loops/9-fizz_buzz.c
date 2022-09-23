@@ -1,17 +1,12 @@
 #include "stdio.h"
 
-/**
-* FizzBuzz - program that prints the numbers from 1 to 100, followed by a new line. 
-*
-* @Fizz: prints multiples of three.
-* @Buzz: prints multiples of five.
-* @FizzBuzz: prints multiples of both three and five.
-*
-* Return: no return.
-*/
+/*
+ * main - prints Buzz each numbers of 3 and 5.
+ * Return: Always 0.
+ */
 int main(void)
 {
-int n;
+	int n;
 
 	n = 1;
 	printf("%d", n);

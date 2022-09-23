@@ -1,20 +1,16 @@
 #include "main.h"
 
 /**
-* PROTO - DESC
+* print_numbers -  Prints 0 to 9.
 *
-* Return: 0 if success.
+* Return: no return.
 */
 void print_numbers(void)
 {
-char num[10] = "0123456789";
 int a;
+for (a = 48; a < 58; a++)
 {
-for (a = 0; a <= 10; a++)
+_putchar(a);
 }
-_putchar(int[num]);
-_putchar("\n");
-{
-return (0);
-}
+_putchar('\n');
 }

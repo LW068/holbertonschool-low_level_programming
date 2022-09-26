@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* swapo_int - swapping two intergers.
+* swap_int - swapping two intergers.
 *
 * @a: first interger.
 * @b: second interger.

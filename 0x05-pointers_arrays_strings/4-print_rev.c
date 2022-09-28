@@ -5,7 +5,7 @@
 * @s: the string
 *
 * Return: no return.
-*/
+**/
 void print_rev(char *s)
 {
 	int count = 0;

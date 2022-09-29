@@ -6,6 +6,7 @@
 *
 * @dest: a string.
 * @src: a string.
+* @n: character(s).
 *
 * Return: dest.
 */

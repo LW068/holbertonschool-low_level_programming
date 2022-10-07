@@ -3,7 +3,7 @@
 /**
 * _puts_recursion - function that prints a string.
 *
-* @*s: given string.
+* @s: given string.
 *
 * Return: no return.
 */
